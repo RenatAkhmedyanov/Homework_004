@@ -6,14 +6,14 @@ double GetDegree(int A, int B)
     return result;
 }
 
-Console.Write("Введите первое число: ");
+Console.Write("Введите число, которое будет возводиться в степень: ");
 int A = int.Parse(Console.ReadLine()!);
 
-Console.Write("Введите второе число: ");
+Console.Write("Введите степень числа: ");
 int B = int.Parse(Console.ReadLine()!);
 if (B < 0)
 {
-    Console.WriteLine("Некорректный ввод! Второе число должно быть натуральным!");
+    Console.WriteLine("Некорректный ввод! Степень должна быть натуральной!");
 }
 else
 {
